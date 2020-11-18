@@ -17,7 +17,12 @@ const apiPokemon = require('./routes/pokemon');
 
 apiPokemon(app, db);
 
+app.get('/', (req, res) => {
+  res.send("Welcome to Gabriel's test");
+});
+
 const PORT = 3000;
 app.listen(PORT, () => {
-  console.log(`listening on port ${PORT}`);
+  // eslint-disable-next-line prefer-template
+  console.log('listening on port' + PORT);
 });
