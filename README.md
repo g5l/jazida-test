@@ -18,3 +18,7 @@ The link is not working because this error 😞
 2020-11-18T19:09:02.030165+00:00 app[web.1]: ^
 2020-11-18T19:09:02.030165+00:00 app[web.1]:
 2020-11-18T19:09:02.030166+00:00 app[web.1]: Error: Cannot find module '../utils/Arena.js'
+````
+
+## Api Documentation
+To read the API just access - `localhost:3000/api-docs`
