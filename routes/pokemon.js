@@ -1,4 +1,4 @@
-const Arena = require('../utils/Arena');
+const Arena = require('../utils/Arena.js');
 
 module.exports = (app, db) => {
   app.get('/pokemons', (req, res) => {
