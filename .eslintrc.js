@@ -17,5 +17,6 @@ module.exports = {
   rules: {
     'consistent-return': 'off',
     'import/no-dynamic-require': 'off',
+    'class-methods-use-this': 'off',
   },
 };

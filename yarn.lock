@@ -673,6 +673,11 @@ dot-prop@^5.2.0:
   dependencies:
     is-obj "^2.0.0"
 
+dotenv@^8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
+  integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
+
 dottie@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/dottie/-/dottie-2.0.2.tgz#cc91c0726ce3a054ebf11c55fbc92a7f266dd154"
@@ -957,11 +962,6 @@ etag@~1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
-
-express4-tedious@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/express4-tedious/-/express4-tedious-0.3.0.tgz#4a4b190dfad0f0ffa876f64771818c642a7e163f"
-  integrity sha512-H+wT3g6ntgi+XdRhoe6GmjLvAN31eWnVm3VQybYdz9y2lKHzcF5qg+79X2lw4en+rInBqlPwSSRGia9BE9kW/w==
 
 express@^4.17.1:
   version "4.17.1"

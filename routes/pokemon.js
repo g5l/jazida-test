@@ -1,3 +1,5 @@
+const Arena = require('../utils/Arena');
+
 module.exports = (app, db) => {
   app.get('/pokemons', (req, res) => {
     db.Pokemons.findAll().then((result) => res.status(200).json(result));
@@ -49,13 +51,9 @@ module.exports = (app, db) => {
     const pokemonA = await db.Pokemons.findOne({ where: { id: pokemonAId } });
     const pokemonB = await db.Pokemons.findOne({ where: { id: pokemonBId } });
 
-    res.status(200).json({
-      vencedor: {
-        pokemonA,
-      },
-      perdedor: {
-        pokemonB,
-      },
-    });
+    const arena = new Arena(pokemonA, pokemonB);
+    const fight = await arena.fight();
+
+    res.status(200).json(fight);
   });
 };
